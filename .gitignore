@@ -1,0 +1,47 @@
+.vscode/**
+build/**
+run/**
+fusesoc_libraries/**
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+*.vmem
+*.elf
+*.dis
+*.bin
+
+tests/mem-input.vmem
+tests/mem-weight.vmem
+sw/simple-mmio/test-data.h
+sw/common/test-data.h
